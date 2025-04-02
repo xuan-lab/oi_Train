@@ -17,8 +17,9 @@ bool dfs(int x,int y)
     if (dfs(x, y+1) || dfs(x+1, y) || dfs(x, y-1) || dfs(x-1, y))
         return true;
 
+    //回溯
     vis[x][y]=false;
-    return false;
+    return false;  
 }
 int main()
 {
