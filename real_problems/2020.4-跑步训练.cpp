@@ -51,7 +51,6 @@ int main() {
             }
         }
         
-        // Check if we've reached the end date (including October 1, 2020)
         if (year == 2020 && mouth == 10 && day > 1) {
             break;
         }
